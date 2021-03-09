@@ -20,7 +20,7 @@ def get_add_movie_order(index):
     """ Get Movie Order Report in History """
     hostname = "%s:%d" % (app_config["events"]["hostname"], app_config["events"]["port"])
     client = KafkaClient(hosts=hostname)
-    topic = client.topics[app_config["events"]["topic"]]
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
 
 
 
@@ -49,7 +49,7 @@ def get_payment(index):
     """ Get Payment Report in History """
     hostname = "%s:%d" % (app_config["events"]["hostname"], app_config["events"]["port"])
     client = KafkaClient(hosts=hostname)
-    topic = client.topics[app_config["events"]["topic"]]
+    topic = client.topics[str.encode(app_config["events"]["topic"])]
 
     consumer = topic.get_simple_consumer(reset_offset_on_start=True, consumer_timeout_ms=600)
     logger.info("Retrieving payment report at index %d" % index)

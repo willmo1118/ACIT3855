@@ -1,0 +1,146 @@
+openapi: 3.0.0
+# servers:
+#Added by API Auto Mocking Plugin
+#   - description: SwaggerHub API Auto Mocking
+#     url: https://virtserver.swaggerhub.com/willmo2365/Movies/1.0.0
+info:
+  description: This API receives movie order and payment events from my web app
+  version: "1.0.0"
+  title: Movie API
+  contact:
+    email: willmo2365@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: customers
+    description: Operations available to customers
+  - name: movie_companies
+    description: Operations available to movie companies
+paths:
+  /orders/movie_orders:
+    get:
+      tags:
+        - customers
+      summary: gets movie_order details
+      operationId: app.get_add_movie_order
+      description: Gets movie order details added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2016-08-29T09:12:33.001Z"
+      responses:
+        "200":
+          description: Successfully returned a list of add movie order events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Movie_Order"
+        "400":
+          description: "invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /orders/payments:
+    get:
+      tags:
+        - movie_companies
+      summary: gets payment details
+      operationId: app.get_payment
+      description: Gets payment details added after a timestamp
+      parameters:
+        - name: timestamp
+          in: query
+          description: Limits the number of items on a page
+          schema:
+            type: string
+            format: date-time
+            example: "2016-08-29T09:12:33.001Z"
+      responses:
+        "200":
+          description: Successfully returned a list of add payment events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: "#/components/schemas/Payment"
+        "400":
+          description: "invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    Movie_Order:
+      type: object
+      required:
+        - order_id
+        - customer_id
+        - timestamp
+        - movie
+        - movie_company
+        - movie_price
+      properties:
+        order_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        customer_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        movie:
+          type: string
+          example: Titanic
+        movie_company:
+          type: string
+          example: Universal Pictures
+        movie_price:
+          type: number
+          example: 14.99
+    Payment:
+      type: object
+      required:
+        - payment_id
+        - customer_id
+        - timestamp
+        - movie_company
+        - movie
+      properties:
+        payment_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        customer_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        movie_company:
+          type: string
+          example: Universal Pictures
+        movie:
+          type: string
+          example: Titanic

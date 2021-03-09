@@ -1,0 +1,9 @@
+version: 1
+add_movie_order:
+  url: http://localhost:8090/orders/movie_orders
+payment:
+  url: http://localhost:8090/orders/payments
+events:
+  hostname: acit3855-will.westus2.cloudapp.azure.com
+  port: 9092
+  topic: events

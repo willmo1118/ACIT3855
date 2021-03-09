@@ -1,0 +1,9 @@
+2021-03-02 22:21:24,012 - basicLogger - INFO - Retrieving payment report at index 1
+2021-03-02 22:22:40,286 - basicLogger - INFO - Retrieving payment report at index 50
+2021-03-02 22:22:40,919 - basicLogger - ERROR - Could not find payment report at index 50
+2021-03-04 10:44:16,577 - basicLogger - INFO - Retrieving order report at index 100
+2021-03-04 10:44:17,234 - basicLogger - ERROR - Could not find movie order report at index 100
+2021-03-04 10:44:31,343 - basicLogger - INFO - Retrieving order report at index 10
+2021-03-04 10:44:44,072 - basicLogger - INFO - Retrieving payment report at index 100
+2021-03-04 10:44:44,717 - basicLogger - ERROR - Could not find payment report at index 100
+2021-03-04 10:44:50,824 - basicLogger - INFO - Retrieving payment report at index 3

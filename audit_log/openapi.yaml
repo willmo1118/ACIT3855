@@ -1,0 +1,154 @@
+openapi: 3.0.0
+# servers:
+#Added by API Auto Mocking Plugin
+#   - description: SwaggerHub API Auto Mocking
+#     url: https://virtserver.swaggerhub.com/willmo2365/Movies/1.0.0
+info:
+  description: This API receives movie order and payment events from my web app
+  version: "1.0.0"
+  title: Movie API
+  contact:
+    email: willmo2365@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+
+paths:
+  /orders/movie_orders:
+    get:
+      summary: gets a movie order report from history
+      operationId: app.get_add_movie_order
+      description: gets an movie order report from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the movie order report at the index in the event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        "200":
+          description: Successfully returned a order report event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/Movie_Order"
+        "400":
+          description: "invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "404":
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+  /orders/payments:
+    get:
+      summary: gets a payment report from history
+      operationId: app.get_payment
+      description: gets a payment report from the event store
+      parameters:
+        - name: index
+          in: query
+          description: Gets the payment report at the index in the event store
+          schema:
+            type: integer
+            example: 100
+      responses:
+        "200":
+          description: Successfully returned a payment report event
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/Payment"
+        "400":
+          description: "invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+        "404":
+          description: Not Found
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    Movie_Order:
+      type: object
+      required:
+        - order_id
+        - customer_id
+        - timestamp
+        - movie
+        - movie_company
+        - movie_price
+      properties:
+        order_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        customer_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        movie:
+          type: string
+          example: Titanic
+        movie_company:
+          type: string
+          example: Universal Pictures
+        movie_price:
+          type: number
+          example: 14.99
+    Payment:
+      type: object
+      required:
+        - payment_id
+        - customer_id
+        - timestamp
+        - movie_company
+        - movie
+      properties:
+        payment_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        customer_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        movie_company:
+          type: string
+          example: Universal Pictures
+        movie:
+          type: string
+          example: Titanic

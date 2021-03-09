@@ -1,0 +1,65 @@
+openapi: 3.0.0
+# servers:
+#Added by API Auto Mocking Plugin
+#   - description: SwaggerHub API Auto Mocking
+#     url: https://virtserver.swaggerhub.com/willmo2365/Movies/1.0.0
+info:
+  description: This API receives movie order and payment events from my web app
+  version: "1.0.0"
+  title: Movie API
+  contact:
+    email: willmo2365@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: stats
+    description: Operations available to get stats
+paths:
+  /orders/get_stats:
+    get:
+      tags:
+        - stats
+      summary: gets order stats
+      operationId: app.get_stats
+      description: Gets order and payment details statistics
+      responses:
+        "200":
+          description: Successfully returned a list of order and payment events
+          content:
+            application/json:
+              schema:
+                type: object
+                items:
+                  $ref: "#/components/schemas/OrderStats"
+        "400":
+          description: "invalid request"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+components:
+  schemas:
+    OrderStats:
+      required:
+        - num_movie_orders
+        - num_payments
+        - sum_movie_price
+        - avg_movie_price
+      properties:
+        num_movie_orders:
+          type: integer
+          example: 500000
+        num_payments:
+          type: integer
+          example: 500000
+        sum_movie_price:
+          type: number
+          example: 200.20
+        avg_movie_price:
+          type: number
+          example: 10.50
+      type: object

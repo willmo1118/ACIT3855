@@ -1,0 +1,116 @@
+openapi: 3.0.0
+# servers:
+#Added by API Auto Mocking Plugin
+#   - description: SwaggerHub API Auto Mocking
+#     url: https://virtserver.swaggerhub.com/willmo2365/Movies/1.0.0
+info:
+  description: This API receives movie order and payment events from my web app
+  version: "1.0.0"
+  title: Movie API
+  contact:
+    email: willmo2365@gmail.com
+  license:
+    name: Apache 2.0
+    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+tags:
+  - name: customers
+    description: Operations available to customers
+  - name: movie_companies
+    description: Operations available to movie companies
+paths:
+  /orders/movie_orders:
+    post:
+      tags:
+        - customers
+      summary: reports a movie order
+      operationId: app.add_movie_order
+      description: adds a new movie order to the system
+      responses:
+        '201':
+          description: movie order created
+        '400':
+          description: 'invalid input, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Movie_Order'
+        description: movie order item to add
+  /orders/payments:
+    post:
+      tags:
+        - movie_companies
+      summary: reports a payment
+      operationId: app.payment
+      description: adds a new payment to the system
+      responses:
+        '201':
+          description: payment created
+        '400':
+          description: 'invalid input, object invalid'
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Payment'
+        description: payment item to add
+components:
+  schemas:
+    Movie_Order:
+      type: object
+      required:
+        - order_id
+        - customer_id
+        - timestamp
+        - movie
+        - movie_company
+        - movie_price
+      properties:
+        order_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        customer_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        movie:
+          type: string
+          example: Titanic
+        movie_company:
+          type: string
+          example: Universal Pictures
+        movie_price:
+          type: number
+          example: 14.99
+    Payment:
+      type: object
+      required:
+        - payment_id
+        - customer_id
+        - timestamp
+        - movie_company
+        - movie
+      properties:
+        payment_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        customer_id:
+          type: string
+          format: uuid
+          example: d290f1ee-6c54-4b01-90e6-d701748f0851
+        timestamp:
+          type: string
+          format: date-time
+          example: '2016-08-29T09:12:33.001Z'
+        movie_company:
+          type: string
+          example: Universal Pictures
+        movie:
+          type: string
+          example: Titanic

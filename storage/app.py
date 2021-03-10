@@ -127,7 +127,7 @@ def process_messages():
     # (uncommitted messages) when the service re-starts (i.e., it doesn't
     # read all the old messages from the history in the message queue).
 
-    consumer = topic.get_simple_consumer(consumer_group='event_group', reset_offset_on_start=False, auto_offset_reset=OffsetType.LATEST)
+    consumer = topic.get_simple_consumer(consumer_group=b'event_group', reset_offset_on_start=False, auto_offset_reset=OffsetType.LATEST)
 
     # This is blocking - it will wait for a new message
 

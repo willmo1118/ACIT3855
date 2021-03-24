@@ -4,7 +4,7 @@ from connexion import NoContent
 from pykafka import KafkaClient
 import logging.config
 import yaml
-
+from flask_cors import CORS, cross_origin
 
 with open('app_conf.yaml', 'r') as f:
     app_config = yaml.safe_load(f.read())
@@ -74,6 +74,8 @@ def get_payment(index):
 
 
 app = connexion.FlaskApp(__name__, specification_dir='')
+CORS(app.app)
+app.app.config['CORS_HEADERS'] = 'Content-Type'
 app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":

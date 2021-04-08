@@ -52,13 +52,24 @@ logger.info("Log Conf File: %s" % log_conf_file)
 
 # logger = logging.getLogger('basicLogger')
 
+retries = 0
+
+while retries < app_config["max_retries"]:
+
+    try:
+        client = KafkaClient(hosts=hostname+':'+port)
+        topic = client.topics[str.encode(config_topic)]
+        break
+    except:
+        logger.error("Connection Failed")
+        time.sleep(app_config["sleep_time"])
+        retries += 1
+
 def add_movie_order(body):
     """ Receives movie order event """
     unique_id_movie_order = body["customer_id"]
     logger.info(f"Received event {keys[1]} request with a unique id: {unique_id_movie_order}")
 
-    client = KafkaClient(hosts=hostname+':'+port)
-    topic = client.topics[str.encode(config_topic)]
     producer = topic.get_sync_producer()
     msg = {"type": keys[1], "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"), "payload": body}
     msg_str = json.dumps(msg)
@@ -75,8 +86,7 @@ def payment(body):
     unique_id_payment = body["customer_id"]
     logger.info(f"Received event {keys[2]} request with a unique id: {unique_id_payment}")
 
-    client = KafkaClient(hosts=hostname+':'+port)
-    topic = client.topics[str.encode(config_topic)]
+
     producer = topic.get_sync_producer()
     msg = {"type": keys[2], "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"), "payload": body}
     msg_str = json.dumps(msg)

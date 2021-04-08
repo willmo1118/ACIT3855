@@ -8,6 +8,7 @@ import logging.config
 from pykafka import KafkaClient
 import datetime
 import os
+import time
 
 if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
     print("In Test Environment")

@@ -55,10 +55,11 @@ logger.info("Log Conf File: %s" % log_conf_file)
 retries = 0
 
 while retries < app_config["max_retries"]:
-
+    logger.info("Trying to Connect")
     try:
         client = KafkaClient(hosts=hostname+':'+port)
         topic = client.topics[str.encode(config_topic)]
+        logger.info("Connected")
         break
     except:
         logger.error("Connection Failed")

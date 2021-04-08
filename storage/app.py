@@ -158,10 +158,11 @@ def process_messages():
     retries = 0
 
     while retries < app_config["max_retries"]:
-
+        logger.info("Trying to Connect")
         try:
             client = KafkaClient(hosts=hostname)
             topic = client.topics[str.encode(app_config["events"]["topic"])]
+            logger.info("Connected")
             break
         except:
             logger.error("Connection Failed")

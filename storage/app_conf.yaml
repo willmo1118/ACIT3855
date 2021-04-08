@@ -9,5 +9,5 @@ events:
   hostname: acit3855-will.westus2.cloudapp.azure.com
   port: 9092
   topic: events
-max_retries: 10
+max_retries: 20
 sleep_time: 3

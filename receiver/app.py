@@ -9,16 +9,35 @@ from pykafka import KafkaClient
 import datetime
 import os
 
-if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
-    print("In Test Environment")
-    app_conf_file = "/config/app_conf.yaml"
-    log_conf_file = "/config/log_conf.yaml"
-else:
-    print("In Dev Environment")
-    app_conf_file = "app_conf.yaml"
-    log_conf_file = "log_conf.yaml"
+# if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+#     print("In Test Environment")
+#     app_conf_file = "/config/app_conf.yaml"
+#     log_conf_file = "/config/log_conf.yaml"
+# else:
+#     print("In Dev Environment")
+#     app_conf_file = "app_conf.yaml"
+#     log_conf_file = "log_conf.yaml"
 
-with open(app_conf_file, 'r') as f:
+# with open(app_conf_file, 'r') as f:
+#     app_config = yaml.safe_load(f.read())
+#     movie_order_url = app_config['add_movie_order']['url']
+#     payment_url = app_config['payment']['url']
+#     keys = list(app_config.keys())
+#     hostname = app_config['events']['hostname']
+#     port = str(app_config['events']['port'])
+#     config_topic = app_config['events']['topic']
+
+# # External Logging Configuration
+# with open(log_conf_file, 'r') as f:
+#     log_config = yaml.safe_load(f.read())
+#     logging.config.dictConfig(log_config)
+
+# logger = logging.getLogger('basicLogger')
+
+# logger.info("App Conf File: %s" % app_conf_file)
+# logger.info("Log Conf File: %s" % log_conf_file)
+
+with open('app_conf.yaml', 'r') as f:
     app_config = yaml.safe_load(f.read())
     movie_order_url = app_config['add_movie_order']['url']
     payment_url = app_config['payment']['url']
@@ -27,15 +46,11 @@ with open(app_conf_file, 'r') as f:
     port = str(app_config['events']['port'])
     config_topic = app_config['events']['topic']
 
-# External Logging Configuration
-with open(log_conf_file, 'r') as f:
+with open('log_conf.yaml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
-
-logger.info("App Conf File: %s" % app_conf_file)
-logger.info("Log Conf File: %s" % log_conf_file)
 
 def add_movie_order(body):
     """ Receives movie order event """

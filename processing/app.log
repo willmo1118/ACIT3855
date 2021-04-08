@@ -5547,3 +5547,821 @@
 2021-03-04 10:45:29,314 - basicLogger - INFO - Processed number of order events 0
 2021-03-04 10:45:33,318 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/payments?timestamp=2021-03-04T10:45:22.264898Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04B69710>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
 2021-03-04 10:45:33,319 - basicLogger - INFO - Done Processing
+2021-04-07 16:21:41,181 - basicLogger - INFO - Processing
+2021-04-07 16:21:41,184 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:21:41.183372Z', 'end_timestamp': '2021-04-07T16:21:41.183372Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:21:41,184 - basicLogger - INFO - Done Processing
+2021-04-07 16:21:46,182 - basicLogger - INFO - Processing
+2021-04-07 16:21:48,196 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:21:51,182 - basicLogger - INFO - Processing
+2021-04-07 16:21:53,193 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:21:56,182 - basicLogger - INFO - Processing
+2021-04-07 16:21:58,192 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:01,182 - basicLogger - INFO - Processing
+2021-04-07 16:22:03,188 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:06,182 - basicLogger - INFO - Processing
+2021-04-07 16:22:08,187 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:11,181 - basicLogger - INFO - Processing
+2021-04-07 16:22:13,188 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:16,183 - basicLogger - INFO - Processing
+2021-04-07 16:22:18,192 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:21,182 - basicLogger - INFO - Processing
+2021-04-07 16:22:23,188 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:26,182 - basicLogger - INFO - Processing
+2021-04-07 16:22:28,190 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:31,182 - basicLogger - INFO - Processing
+2021-04-07 16:22:33,187 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:36,181 - basicLogger - INFO - Processing
+2021-04-07 16:22:38,187 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:41,181 - basicLogger - INFO - Processing
+2021-04-07 16:22:43,188 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:46,182 - basicLogger - INFO - Processing
+2021-04-07 16:22:48,187 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:51,182 - basicLogger - INFO - Processing
+2021-04-07 16:22:53,189 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:22:56,181 - basicLogger - INFO - Processing
+2021-04-07 16:22:58,186 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:23:01,182 - basicLogger - INFO - Processing
+2021-04-07 16:23:03,190 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:23:06,182 - basicLogger - INFO - Processing
+2021-04-07 16:23:08,190 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:23:11,182 - basicLogger - INFO - Processing
+2021-04-07 16:23:13,188 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:23:16,181 - basicLogger - INFO - Processing
+2021-04-07 16:23:18,188 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:23:21,181 - basicLogger - INFO - Processing
+2021-04-07 16:23:25,186 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:21:41.183372Z&end_timestamp=2021-04-07T16:23:21.181871Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x053796B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 16:23:25,186 - basicLogger - INFO - Done Processing
+2021-04-07 16:24:15,703 - basicLogger - INFO - Processing
+2021-04-07 16:24:17,711 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:24:20,704 - basicLogger - INFO - Processing
+2021-04-07 16:24:22,711 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:25:48,680 - basicLogger - INFO - Processing
+2021-04-07 16:25:50,687 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:25:52,692 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:25:53,681 - basicLogger - INFO - Processing
+2021-04-07 16:25:55,688 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:25:57,693 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:25:58,681 - basicLogger - INFO - Processing
+2021-04-07 16:26:02,687 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:21:41.183372Z&end_timestamp=2021-04-07T16:25:58.681882Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05213D70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 16:26:02,687 - basicLogger - INFO - Done Processing
+2021-04-07 16:26:03,681 - basicLogger - INFO - Processing
+2021-04-07 16:26:07,686 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:21:41.183372Z&end_timestamp=2021-04-07T16:26:03.681881Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0522F3F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 16:26:07,687 - basicLogger - INFO - Done Processing
+2021-04-07 16:26:53,735 - basicLogger - INFO - Processing
+2021-04-07 16:26:53,736 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:26:53.735881Z', 'end_timestamp': '2021-04-07T16:26:53.735881Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:26:53,736 - basicLogger - INFO - Done Processing
+2021-04-07 16:26:58,735 - basicLogger - INFO - Processing
+2021-04-07 16:27:00,748 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:27:02,754 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:27:02,755 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:26:53.735881Z', 'end_timestamp': '2021-04-07T16:26:58.735882Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:27:02,755 - basicLogger - INFO - Done Processing
+2021-04-07 16:27:03,736 - basicLogger - INFO - Processing
+2021-04-07 16:27:05,748 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:27:07,754 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:27:07,755 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:26:53.735881Z', 'end_timestamp': '2021-04-07T16:27:03.736883Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:27:07,755 - basicLogger - INFO - Done Processing
+2021-04-07 16:27:08,735 - basicLogger - INFO - Processing
+2021-04-07 16:27:10,745 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:27:12,750 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:27:12,751 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:26:53.735881Z', 'end_timestamp': '2021-04-07T16:27:08.736382Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:27:12,751 - basicLogger - INFO - Done Processing
+2021-04-07 16:27:13,736 - basicLogger - INFO - Processing
+2021-04-07 16:27:15,746 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:27:17,754 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:27:17,754 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:26:53.735881Z', 'end_timestamp': '2021-04-07T16:27:13.736883Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:27:17,755 - basicLogger - INFO - Done Processing
+2021-04-07 16:27:18,735 - basicLogger - INFO - Processing
+2021-04-07 16:27:20,748 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:27:22,755 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:27:22,756 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:26:53.735881Z', 'end_timestamp': '2021-04-07T16:27:18.736382Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:27:22,756 - basicLogger - INFO - Done Processing
+2021-04-07 16:30:36,096 - basicLogger - INFO - Processing
+2021-04-07 16:30:38,112 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:30:40,118 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:30:40,118 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:27:18.736382Z', 'end_timestamp': '2021-04-07T16:30:36.097334Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:30:40,119 - basicLogger - INFO - Done Processing
+2021-04-07 16:30:41,088 - basicLogger - INFO - Processing
+2021-04-07 16:30:43,098 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:30:45,103 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:30:45,104 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:30:36.097334Z', 'end_timestamp': '2021-04-07T16:30:41.088332Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:30:45,104 - basicLogger - INFO - Done Processing
+2021-04-07 16:30:46,095 - basicLogger - INFO - Processing
+2021-04-07 16:30:48,108 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:30:50,114 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:30:50,114 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:30:41.088332Z', 'end_timestamp': '2021-04-07T16:30:46.095832Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:30:50,115 - basicLogger - INFO - Done Processing
+2021-04-07 16:30:51,088 - basicLogger - INFO - Processing
+2021-04-07 16:30:53,098 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:30:55,104 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:30:55,104 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:30:46.095832Z', 'end_timestamp': '2021-04-07T16:30:51.089334Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:30:55,105 - basicLogger - INFO - Done Processing
+2021-04-07 16:30:56,095 - basicLogger - INFO - Processing
+2021-04-07 16:30:58,106 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:31:00,112 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:31:00,113 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:30:51.089334Z', 'end_timestamp': '2021-04-07T16:30:56.096333Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:31:00,113 - basicLogger - INFO - Done Processing
+2021-04-07 16:40:50,214 - basicLogger - INFO - Processing
+2021-04-07 16:40:52,229 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:40:54,234 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:40:54,234 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:30:56.096333Z', 'end_timestamp': '2021-04-07T16:40:50.215332Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:40:54,235 - basicLogger - INFO - Done Processing
+2021-04-07 16:40:55,215 - basicLogger - INFO - Processing
+2021-04-07 16:40:57,228 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:40:59,235 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:40:59,235 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:40:50.215332Z', 'end_timestamp': '2021-04-07T16:40:55.215835Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:40:59,236 - basicLogger - INFO - Done Processing
+2021-04-07 16:41:00,215 - basicLogger - INFO - Processing
+2021-04-07 16:41:02,226 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:41:04,232 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:41:04,232 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:40:55.215835Z', 'end_timestamp': '2021-04-07T16:41:00.216332Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:41:04,233 - basicLogger - INFO - Done Processing
+2021-04-07 16:41:05,215 - basicLogger - INFO - Processing
+2021-04-07 16:41:07,227 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:41:09,233 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:41:09,234 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:41:00.216332Z', 'end_timestamp': '2021-04-07T16:41:05.216332Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:41:09,234 - basicLogger - INFO - Done Processing
+2021-04-07 16:41:10,215 - basicLogger - INFO - Processing
+2021-04-07 16:41:12,226 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:41:14,230 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:41:14,231 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:41:05.216332Z', 'end_timestamp': '2021-04-07T16:41:10.215833Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:41:14,231 - basicLogger - INFO - Done Processing
+2021-04-07 16:51:55,678 - basicLogger - INFO - Processing
+2021-04-07 16:51:55,680 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:51:55.679834Z', 'end_timestamp': '2021-04-07T16:51:55.679834Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:51:55,680 - basicLogger - INFO - Done Processing
+2021-04-07 16:52:00,679 - basicLogger - INFO - Processing
+2021-04-07 16:52:04,690 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:51:55.679834Z&end_timestamp=2021-04-07T16:52:00.679833Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04FB4C10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 16:52:04,691 - basicLogger - INFO - Done Processing
+2021-04-07 16:52:05,691 - basicLogger - INFO - Processing
+2021-04-07 16:52:07,703 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:52:09,708 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:52:09,709 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:51:55.679834Z', 'end_timestamp': '2021-04-07T16:52:05.691832Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:52:09,709 - basicLogger - INFO - Done Processing
+2021-04-07 16:52:10,679 - basicLogger - INFO - Processing
+2021-04-07 16:52:12,690 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:52:14,695 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:52:14,696 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:52:05.691832Z', 'end_timestamp': '2021-04-07T16:52:10.680333Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:52:14,696 - basicLogger - INFO - Done Processing
+2021-04-07 16:52:15,691 - basicLogger - INFO - Processing
+2021-04-07 16:52:17,703 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:52:19,709 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 16:52:19,710 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:52:10.680333Z', 'end_timestamp': '2021-04-07T16:52:15.691833Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 16:52:19,710 - basicLogger - INFO - Done Processing
+2021-04-07 16:58:11,620 - basicLogger - INFO - Processing
+2021-04-07 16:58:15,632 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T16:58:11.621333Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05305C90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 16:58:15,633 - basicLogger - INFO - Done Processing
+2021-04-07 16:58:16,621 - basicLogger - INFO - Processing
+2021-04-07 16:58:20,626 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T16:58:16.622334Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05314350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 16:58:20,626 - basicLogger - INFO - Done Processing
+2021-04-07 16:58:21,621 - basicLogger - INFO - Processing
+2021-04-07 16:58:24,631 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:58:26,621 - basicLogger - INFO - Processing
+2021-04-07 16:58:28,628 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 16:58:31,621 - basicLogger - INFO - Processing
+2021-04-07 16:58:35,628 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T16:58:31.622333Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x05314910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 16:58:35,628 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:21,775 - basicLogger - INFO - Processing
+2021-04-07 17:07:25,785 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:21.775842Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x047F1AF0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:07:25,786 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:26,776 - basicLogger - INFO - Processing
+2021-04-07 17:07:30,780 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:26.777342Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04802150>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:07:30,780 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:31,775 - basicLogger - INFO - Processing
+2021-04-07 17:07:35,781 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:31.776342Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x048027B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:07:35,782 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:36,776 - basicLogger - INFO - Processing
+2021-04-07 17:07:40,780 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:36.776842Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x047F1EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:07:40,781 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:41,775 - basicLogger - INFO - Processing
+2021-04-07 17:07:45,780 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:41.776343Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x047F1A30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:07:45,780 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:46,776 - basicLogger - INFO - Processing
+2021-04-07 17:07:50,781 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:46.776843Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04802470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:07:50,782 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:51,775 - basicLogger - INFO - Processing
+2021-04-07 17:07:55,779 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:51.775842Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04802F50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:07:55,780 - basicLogger - INFO - Done Processing
+2021-04-07 17:07:56,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:00,782 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:07:56.775842Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x048135F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:00,782 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:01,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:05,782 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:08:01.775844Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04802F70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:05,783 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:06,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:10,780 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:08:06.776344Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04802490>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:10,781 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:11,776 - basicLogger - INFO - Processing
+2021-04-07 17:08:15,782 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:08:11.776843Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x047F19D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:15,783 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:16,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:20,781 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:08:16.775842Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x047F1FD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:20,781 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:21,776 - basicLogger - INFO - Processing
+2021-04-07 17:08:25,789 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T16:52:15.691833Z&end_timestamp=2021-04-07T17:08:21.776843Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x048132B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:25,790 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:26,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:28,782 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:08:30,789 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:08:30,790 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T16:52:15.691833Z', 'end_timestamp': '2021-04-07T17:08:26.775842Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:08:30,790 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:31,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:33,788 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:08:35,794 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:08:35,795 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:08:26.775842Z', 'end_timestamp': '2021-04-07T17:08:31.775844Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:08:35,795 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:36,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:38,786 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:08:40,792 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:08:40,793 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:08:31.775844Z', 'end_timestamp': '2021-04-07T17:08:36.776342Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:08:40,793 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:41,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:45,785 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:08:36.776342Z&end_timestamp=2021-04-07T17:08:41.776342Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04802A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:45,785 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:46,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:50,782 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:08:36.776342Z&end_timestamp=2021-04-07T17:08:46.775843Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04813590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:50,782 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:51,775 - basicLogger - INFO - Processing
+2021-04-07 17:08:55,779 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:08:36.776342Z&end_timestamp=2021-04-07T17:08:51.776343Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x048138B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:08:55,780 - basicLogger - INFO - Done Processing
+2021-04-07 17:08:56,775 - basicLogger - INFO - Processing
+2021-04-07 17:09:00,780 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:08:36.776342Z&end_timestamp=2021-04-07T17:08:56.776343Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x047F1C70>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:09:00,781 - basicLogger - INFO - Done Processing
+2021-04-07 17:09:01,775 - basicLogger - INFO - Processing
+2021-04-07 17:09:05,782 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:08:36.776342Z&end_timestamp=2021-04-07T17:09:01.776343Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00745330>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:09:05,783 - basicLogger - INFO - Done Processing
+2021-04-07 17:09:18,480 - basicLogger - INFO - Processing
+2021-04-07 17:09:18,481 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:09:18.481343Z', 'end_timestamp': '2021-04-07T17:09:18.481343Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:09:18,482 - basicLogger - INFO - Done Processing
+2021-04-07 17:09:23,482 - basicLogger - INFO - Processing
+2021-04-07 17:09:25,498 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:09:27,505 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:09:27,505 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:09:18.481343Z', 'end_timestamp': '2021-04-07T17:09:23.482843Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:09:27,506 - basicLogger - INFO - Done Processing
+2021-04-07 17:09:28,481 - basicLogger - INFO - Processing
+2021-04-07 17:09:30,492 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:09:32,497 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:09:32,497 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:09:23.482843Z', 'end_timestamp': '2021-04-07T17:09:28.482344Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:09:32,498 - basicLogger - INFO - Done Processing
+2021-04-07 17:09:33,482 - basicLogger - INFO - Processing
+2021-04-07 17:09:37,493 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:09:28.482344Z&end_timestamp=2021-04-07T17:09:33.483343Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x04EF7B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:09:37,494 - basicLogger - INFO - Done Processing
+2021-04-07 17:12:47,197 - basicLogger - INFO - Processing
+2021-04-07 17:12:49,204 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:12:52,197 - basicLogger - INFO - Processing
+2021-04-07 17:12:54,203 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:12:57,197 - basicLogger - INFO - Processing
+2021-04-07 17:13:01,201 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:09:28.482344Z&end_timestamp=2021-04-07T17:12:57.197842Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x050FAA90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:13:01,201 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:02,197 - basicLogger - INFO - Processing
+2021-04-07 17:13:06,202 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:09:28.482344Z&end_timestamp=2021-04-07T17:13:02.198342Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x050E6A50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:13:06,202 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:07,198 - basicLogger - INFO - Processing
+2021-04-07 17:13:11,204 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:09:28.482344Z&end_timestamp=2021-04-07T17:13:07.198844Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x050FA410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:13:11,205 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:12,198 - basicLogger - INFO - Processing
+2021-04-07 17:13:16,203 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:09:28.482344Z&end_timestamp=2021-04-07T17:13:12.198842Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x050FAF50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:13:16,204 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:17,198 - basicLogger - INFO - Processing
+2021-04-07 17:13:21,204 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:09:28.482344Z&end_timestamp=2021-04-07T17:13:17.198342Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0510F5F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:13:21,204 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:22,198 - basicLogger - INFO - Processing
+2021-04-07 17:13:26,203 - basicLogger - ERROR - HTTPConnectionPool(host='localhost', port=8090): Max retries exceeded with url: /orders/movie_orders?start_timestamp=2021-04-07T17:09:28.482344Z&end_timestamp=2021-04-07T17:13:22.198843Z (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x050E6E90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-04-07 17:13:26,204 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:27,198 - basicLogger - INFO - Processing
+2021-04-07 17:13:31,174 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:13:31,174 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:33,230 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:13:33,230 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:33,231 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:09:28.482344Z', 'end_timestamp': '2021-04-07T17:13:27.198844Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:13:33,231 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:37,196 - basicLogger - INFO - Processing
+2021-04-07 17:13:39,251 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:13:39,251 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:41,310 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:13:41,310 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:41,310 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:13:27.198844Z', 'end_timestamp': '2021-04-07T17:13:37.196843Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:13:41,311 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:42,197 - basicLogger - INFO - Processing
+2021-04-07 17:13:44,259 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:13:44,259 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:46,316 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:13:46,316 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:46,317 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:13:37.196843Z', 'end_timestamp': '2021-04-07T17:13:42.198342Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:13:46,317 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:47,197 - basicLogger - INFO - Processing
+2021-04-07 17:13:49,265 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:13:49,266 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:51,320 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:13:51,320 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:51,321 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:13:42.198342Z', 'end_timestamp': '2021-04-07T17:13:47.197842Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:13:51,321 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:52,196 - basicLogger - INFO - Processing
+2021-04-07 17:13:54,256 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:13:54,256 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:56,314 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:13:56,314 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:13:56,315 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:13:47.197842Z', 'end_timestamp': '2021-04-07T17:13:52.197342Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:13:56,315 - basicLogger - INFO - Done Processing
+2021-04-07 17:13:57,197 - basicLogger - INFO - Processing
+2021-04-07 17:13:59,256 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:13:59,256 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:01,318 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:01,318 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:01,319 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:13:52.197342Z', 'end_timestamp': '2021-04-07T17:13:57.198343Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:01,319 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:02,197 - basicLogger - INFO - Processing
+2021-04-07 17:14:04,264 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:04,264 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:06,322 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:06,323 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:06,323 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:13:57.198343Z', 'end_timestamp': '2021-04-07T17:14:02.198342Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:06,324 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:07,198 - basicLogger - INFO - Processing
+2021-04-07 17:14:09,257 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:09,257 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:11,310 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:11,310 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:11,310 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:02.198342Z', 'end_timestamp': '2021-04-07T17:14:07.198343Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:11,311 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:12,197 - basicLogger - INFO - Processing
+2021-04-07 17:14:14,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:14,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:16,318 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:16,318 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:16,319 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:07.198343Z', 'end_timestamp': '2021-04-07T17:14:12.197843Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:16,319 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:17,197 - basicLogger - INFO - Processing
+2021-04-07 17:14:19,260 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:19,260 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:21,316 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:21,316 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:21,317 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:12.197843Z', 'end_timestamp': '2021-04-07T17:14:17.197843Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:21,317 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:22,196 - basicLogger - INFO - Processing
+2021-04-07 17:14:24,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:24,259 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:26,315 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:26,315 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:26,316 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:17.197843Z', 'end_timestamp': '2021-04-07T17:14:22.197342Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:26,316 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:27,197 - basicLogger - INFO - Processing
+2021-04-07 17:14:29,255 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:29,255 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:31,307 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:31,307 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:31,308 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:22.197342Z', 'end_timestamp': '2021-04-07T17:14:27.198342Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:31,308 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:32,197 - basicLogger - INFO - Processing
+2021-04-07 17:14:34,257 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:34,257 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:36,311 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:36,311 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:36,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:27.198342Z', 'end_timestamp': '2021-04-07T17:14:32.197842Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:36,312 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:37,197 - basicLogger - INFO - Processing
+2021-04-07 17:14:39,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:39,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:41,311 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:41,311 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:41,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:32.197842Z', 'end_timestamp': '2021-04-07T17:14:37.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:41,312 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:42,196 - basicLogger - INFO - Processing
+2021-04-07 17:14:44,256 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:44,257 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:46,315 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:46,315 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:46,316 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:37.197355Z', 'end_timestamp': '2021-04-07T17:14:42.196855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:46,316 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:47,197 - basicLogger - INFO - Processing
+2021-04-07 17:14:49,257 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:49,257 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:51,309 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:51,309 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:51,310 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:42.196855Z', 'end_timestamp': '2021-04-07T17:14:47.197855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:51,310 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:52,196 - basicLogger - INFO - Processing
+2021-04-07 17:14:54,255 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:54,255 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:56,320 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:14:56,320 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:14:56,321 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:47.197855Z', 'end_timestamp': '2021-04-07T17:14:52.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:14:56,321 - basicLogger - INFO - Done Processing
+2021-04-07 17:14:57,196 - basicLogger - INFO - Processing
+2021-04-07 17:14:59,257 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:14:59,257 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:01,309 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:01,309 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:01,309 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:52.197355Z', 'end_timestamp': '2021-04-07T17:14:57.196856Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:01,310 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:02,197 - basicLogger - INFO - Processing
+2021-04-07 17:15:04,253 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:04,254 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:06,311 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:06,311 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:06,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:14:57.196856Z', 'end_timestamp': '2021-04-07T17:15:02.197856Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:06,312 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:07,197 - basicLogger - INFO - Processing
+2021-04-07 17:15:09,253 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:09,254 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:11,304 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:11,305 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:11,305 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:02.197856Z', 'end_timestamp': '2021-04-07T17:15:07.197855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:11,306 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:12,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:14,264 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:14,264 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:16,320 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:16,320 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:16,321 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:07.197855Z', 'end_timestamp': '2021-04-07T17:15:12.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:16,321 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:17,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:19,266 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:19,266 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:21,324 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:21,325 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:21,325 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:12.197355Z', 'end_timestamp': '2021-04-07T17:15:17.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:21,326 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:22,197 - basicLogger - INFO - Processing
+2021-04-07 17:15:24,255 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:24,256 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:26,310 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:26,311 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:26,311 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:17.197356Z', 'end_timestamp': '2021-04-07T17:15:22.197856Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:26,311 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:27,197 - basicLogger - INFO - Processing
+2021-04-07 17:15:29,263 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:29,263 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:31,314 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:31,315 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:31,315 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:22.197856Z', 'end_timestamp': '2021-04-07T17:15:27.197857Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:31,315 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:32,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:34,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:34,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:36,313 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:36,313 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:36,314 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:27.197857Z', 'end_timestamp': '2021-04-07T17:15:32.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:36,314 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:37,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:39,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:39,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:41,307 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:41,307 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:41,307 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:32.197355Z', 'end_timestamp': '2021-04-07T17:15:37.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:41,308 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:42,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:44,249 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:44,249 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:46,308 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:46,308 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:46,308 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:37.197356Z', 'end_timestamp': '2021-04-07T17:15:42.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:46,309 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:47,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:49,274 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:49,274 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:51,332 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:51,333 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:51,333 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:42.197356Z', 'end_timestamp': '2021-04-07T17:15:47.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:51,334 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:52,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:54,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:54,259 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:56,316 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:15:56,316 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:15:56,317 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:47.197356Z', 'end_timestamp': '2021-04-07T17:15:52.196855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:15:56,317 - basicLogger - INFO - Done Processing
+2021-04-07 17:15:57,196 - basicLogger - INFO - Processing
+2021-04-07 17:15:59,255 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:15:59,255 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:01,308 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:01,309 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:01,309 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:52.196855Z', 'end_timestamp': '2021-04-07T17:15:57.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:01,310 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:02,196 - basicLogger - INFO - Processing
+2021-04-07 17:16:04,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:04,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:06,315 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:06,315 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:06,316 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:15:57.197356Z', 'end_timestamp': '2021-04-07T17:16:02.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:06,316 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:07,196 - basicLogger - INFO - Processing
+2021-04-07 17:16:09,256 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:09,256 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:11,311 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:11,311 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:11,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:02.197355Z', 'end_timestamp': '2021-04-07T17:16:07.196855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:11,312 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:12,197 - basicLogger - INFO - Processing
+2021-04-07 17:16:14,262 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:14,262 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:16,319 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:16,320 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:16,320 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:07.196855Z', 'end_timestamp': '2021-04-07T17:16:12.197855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:16,321 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:17,197 - basicLogger - INFO - Processing
+2021-04-07 17:16:19,256 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:19,256 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:21,321 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:21,321 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:21,322 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:12.197855Z', 'end_timestamp': '2021-04-07T17:16:17.197855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:21,322 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:22,197 - basicLogger - INFO - Processing
+2021-04-07 17:16:24,260 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:24,260 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:26,314 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:26,314 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:26,315 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:17.197855Z', 'end_timestamp': '2021-04-07T17:16:22.197855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:26,315 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:27,196 - basicLogger - INFO - Processing
+2021-04-07 17:16:29,260 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:29,261 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:31,312 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:31,312 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:31,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:22.197855Z', 'end_timestamp': '2021-04-07T17:16:27.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:31,313 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:32,196 - basicLogger - INFO - Processing
+2021-04-07 17:16:34,254 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:34,254 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:36,310 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:36,311 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:36,311 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:27.197356Z', 'end_timestamp': '2021-04-07T17:16:32.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:36,312 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:37,196 - basicLogger - INFO - Processing
+2021-04-07 17:16:39,259 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:39,259 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:41,306 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:41,306 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:41,307 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:32.197356Z', 'end_timestamp': '2021-04-07T17:16:37.196855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:41,307 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:42,197 - basicLogger - INFO - Processing
+2021-04-07 17:16:44,248 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:44,248 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:46,295 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:46,295 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:46,295 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:37.196855Z', 'end_timestamp': '2021-04-07T17:16:42.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:46,296 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:47,196 - basicLogger - INFO - Processing
+2021-04-07 17:16:49,246 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:49,246 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:51,298 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:51,298 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:51,299 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:42.197356Z', 'end_timestamp': '2021-04-07T17:16:47.196855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:51,299 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:52,197 - basicLogger - INFO - Processing
+2021-04-07 17:16:54,248 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:54,248 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:56,294 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:16:56,295 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:16:56,295 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:47.196855Z', 'end_timestamp': '2021-04-07T17:16:52.197856Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:16:56,296 - basicLogger - INFO - Done Processing
+2021-04-07 17:16:57,196 - basicLogger - INFO - Processing
+2021-04-07 17:16:59,265 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:16:59,266 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:01,318 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:01,319 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:01,319 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:52.197856Z', 'end_timestamp': '2021-04-07T17:16:57.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:01,320 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:02,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:04,250 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:04,251 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:06,299 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:06,299 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:06,300 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:16:57.197355Z', 'end_timestamp': '2021-04-07T17:17:02.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:06,300 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:07,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:09,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:09,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:11,305 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:11,305 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:11,305 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:02.197355Z', 'end_timestamp': '2021-04-07T17:17:07.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:11,306 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:12,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:14,259 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:14,259 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:16,308 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:16,308 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:16,309 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:07.197355Z', 'end_timestamp': '2021-04-07T17:17:12.196855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:16,310 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:17,197 - basicLogger - INFO - Processing
+2021-04-07 17:17:19,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:19,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:21,305 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:21,305 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:21,306 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:12.196855Z', 'end_timestamp': '2021-04-07T17:17:17.197856Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:21,306 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:22,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:24,261 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:24,261 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:26,304 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:26,304 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:26,305 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:17.197856Z', 'end_timestamp': '2021-04-07T17:17:22.197357Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:26,305 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:27,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:29,251 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:29,251 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:31,298 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:31,298 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:31,299 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:22.197357Z', 'end_timestamp': '2021-04-07T17:17:27.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:31,299 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:32,197 - basicLogger - INFO - Processing
+2021-04-07 17:17:34,257 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:34,257 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:36,306 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:36,307 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:36,307 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:27.197356Z', 'end_timestamp': '2021-04-07T17:17:32.197355Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:36,307 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:37,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:39,249 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:39,249 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:41,299 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:41,300 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:41,300 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:32.197355Z', 'end_timestamp': '2021-04-07T17:17:37.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:41,301 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:42,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:44,704 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:44,705 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:46,758 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:46,758 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:46,759 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:37.197356Z', 'end_timestamp': '2021-04-07T17:17:42.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:46,759 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:47,197 - basicLogger - INFO - Processing
+2021-04-07 17:17:49,257 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:49,257 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:51,309 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:51,309 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:51,310 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:42.197356Z', 'end_timestamp': '2021-04-07T17:17:47.197356Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:51,310 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:52,196 - basicLogger - INFO - Processing
+2021-04-07 17:17:54,259 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:54,260 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:56,313 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:17:56,313 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:17:56,314 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:47.197356Z', 'end_timestamp': '2021-04-07T17:17:52.196856Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:17:56,314 - basicLogger - INFO - Done Processing
+2021-04-07 17:17:57,197 - basicLogger - INFO - Processing
+2021-04-07 17:17:59,247 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:17:59,248 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:01,295 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:01,295 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:01,296 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:52.196856Z', 'end_timestamp': '2021-04-07T17:17:57.197855Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:01,296 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:02,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:04,252 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:04,252 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:06,300 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:06,301 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:06,301 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:17:57.197855Z', 'end_timestamp': '2021-04-07T17:18:02.197369Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:06,302 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:07,197 - basicLogger - INFO - Processing
+2021-04-07 17:18:09,254 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:09,254 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:11,303 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:11,303 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:11,304 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:02.197369Z', 'end_timestamp': '2021-04-07T17:18:07.197369Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:11,304 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:12,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:14,248 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:14,248 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:16,298 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:16,298 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:16,299 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:07.197369Z', 'end_timestamp': '2021-04-07T17:18:12.197369Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:16,299 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:17,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:19,250 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:19,250 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:21,300 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:21,300 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:21,301 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:12.197369Z', 'end_timestamp': '2021-04-07T17:18:17.197369Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:21,301 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:22,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:24,248 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:24,248 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:26,300 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:26,300 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:26,301 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:17.197369Z', 'end_timestamp': '2021-04-07T17:18:22.196889Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:26,301 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:27,197 - basicLogger - INFO - Processing
+2021-04-07 17:18:29,250 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:29,250 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:31,299 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:31,299 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:31,299 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:22.196889Z', 'end_timestamp': '2021-04-07T17:18:27.197389Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:31,300 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:32,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:34,255 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:34,255 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:36,302 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:36,303 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:36,303 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:27.197389Z', 'end_timestamp': '2021-04-07T17:18:32.197389Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:36,304 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:37,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:39,255 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:39,255 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:41,302 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:41,302 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:41,303 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:32.197389Z', 'end_timestamp': '2021-04-07T17:18:37.197388Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:41,303 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:42,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:44,261 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:44,261 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:46,313 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:46,313 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:46,314 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:37.197388Z', 'end_timestamp': '2021-04-07T17:18:42.197388Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:46,314 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:47,196 - basicLogger - INFO - Processing
+2021-04-07 17:18:49,251 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:49,251 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:51,300 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:51,300 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:51,301 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:42.197388Z', 'end_timestamp': '2021-04-07T17:18:47.196887Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:51,301 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:52,197 - basicLogger - INFO - Processing
+2021-04-07 17:18:54,245 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:54,245 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:56,298 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:18:56,298 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:18:56,299 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:47.196887Z', 'end_timestamp': '2021-04-07T17:18:52.197888Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:18:56,299 - basicLogger - INFO - Done Processing
+2021-04-07 17:18:57,197 - basicLogger - INFO - Processing
+2021-04-07 17:18:59,252 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:18:59,253 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:01,307 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:01,307 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:01,308 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:52.197888Z', 'end_timestamp': '2021-04-07T17:18:57.197887Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:01,308 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:02,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:04,250 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:04,250 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:06,305 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:06,305 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:06,306 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:18:57.197887Z', 'end_timestamp': '2021-04-07T17:19:02.197389Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:06,306 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:07,196 - basicLogger - INFO - Processing
+2021-04-07 17:19:09,251 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:09,251 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:11,298 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:11,299 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:11,299 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:02.197389Z', 'end_timestamp': '2021-04-07T17:19:07.197388Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:11,300 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:12,196 - basicLogger - INFO - Processing
+2021-04-07 17:19:14,256 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:14,256 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:16,311 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:16,312 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:16,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:07.197388Z', 'end_timestamp': '2021-04-07T17:19:12.197205Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:16,313 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:17,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:19,254 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:19,254 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:21,305 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:21,305 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:21,306 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:12.197205Z', 'end_timestamp': '2021-04-07T17:19:17.197705Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:21,306 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:22,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:24,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:24,259 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:26,312 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:26,312 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:26,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:17.197705Z', 'end_timestamp': '2021-04-07T17:19:22.197705Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:26,313 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:27,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:29,255 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:29,255 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:31,304 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:31,305 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:31,305 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:22.197705Z', 'end_timestamp': '2021-04-07T17:19:27.197705Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:31,306 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:32,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:34,258 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:34,258 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:36,310 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:36,310 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:36,311 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:27.197705Z', 'end_timestamp': '2021-04-07T17:19:32.197205Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:36,311 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:37,198 - basicLogger - INFO - Processing
+2021-04-07 17:19:39,265 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:39,265 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:41,314 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:41,314 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:41,315 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:32.197205Z', 'end_timestamp': '2021-04-07T17:19:37.198204Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:41,315 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:42,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:44,256 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:44,256 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:46,310 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:46,310 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:46,311 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:37.198204Z', 'end_timestamp': '2021-04-07T17:19:42.197704Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:46,311 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:47,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:49,259 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:49,259 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:51,311 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:51,311 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:51,312 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:42.197704Z', 'end_timestamp': '2021-04-07T17:19:47.197706Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:51,312 - basicLogger - INFO - Done Processing
+2021-04-07 17:19:52,197 - basicLogger - INFO - Processing
+2021-04-07 17:19:54,252 - basicLogger - INFO - Returned number of order events 0
+2021-04-07 17:19:54,252 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:56,298 - basicLogger - INFO - Returned number of payment events 0
+2021-04-07 17:19:56,299 - basicLogger - INFO - Processed number of order events 0
+2021-04-07 17:19:56,299 - basicLogger - DEBUG - Current Statistics: {'start_timestamp': '2021-04-07T17:19:47.197706Z', 'end_timestamp': '2021-04-07T17:19:52.197705Z', 'num_movie_orders': 0, 'num_payments': 0, 'sum_movie_price': 0, 'avg_movie_price': 0}
+2021-04-07 17:19:56,300 - basicLogger - INFO - Done Processing

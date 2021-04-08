@@ -16,46 +16,64 @@ import logging.config
 from pykafka import KafkaClient
 from pykafka.common import OffsetType
 from threading import Thread
+from sqlalchemy import and_
 import os
+import time
 
-if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
-    print("In Test Environment")
-    app_conf_file = "/config/app_conf.yaml"
-    log_conf_file = "/config/log_conf.yaml"
-else:
-    print("In Dev Environment")
-    app_conf_file = "app_conf.yaml"
-    log_conf_file = "log_conf.yaml"
+# if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+#     print("In Test Environment")
+#     app_conf_file = "/config/app_conf.yaml"
+#     log_conf_file = "/config/log_conf.yaml"
+# else:
+#     print("In Dev Environment")
+#     app_conf_file = "app_conf.yaml"
+#     log_conf_file = "log_conf.yaml"
 
-with open(app_conf_file, 'r') as f:
+# with open(app_conf_file, 'r') as f:
+#     app_config = yaml.safe_load(f.read())
+#     DB_ENGINE = create_engine(f"mysql+pymysql://{app_config['datastore']['user']}:{app_config['datastore']['password']}@{app_config['datastore']['hostname']}:{app_config['datastore']['port']}/{app_config['datastore']['db']}")
+#     Base.metadata.bind = DB_ENGINE
+#     DB_SESSION = sessionmaker(bind=DB_ENGINE)
+
+# with open(app_conf_file, 'r') as f:
+#     app_config = yaml.safe_load(f.read())
+
+
+# # External Logging Configuration
+# with open(log_conf_file, 'r') as f:
+#     log_config = yaml.safe_load(f.read())
+#     logging.config.dictConfig(log_config)
+
+# logger = logging.getLogger('basicLogger')
+
+# logger.info("App Conf File: %s" % app_conf_file)
+# logger.info("Log Conf File: %s" % log_conf_file)
+
+with open('app_conf.yaml', 'r') as f:
     app_config = yaml.safe_load(f.read())
     DB_ENGINE = create_engine(f"mysql+pymysql://{app_config['datastore']['user']}:{app_config['datastore']['password']}@{app_config['datastore']['hostname']}:{app_config['datastore']['port']}/{app_config['datastore']['db']}")
     Base.metadata.bind = DB_ENGINE
     DB_SESSION = sessionmaker(bind=DB_ENGINE)
 
-with open(app_conf_file, 'r') as f:
-    app_config = yaml.safe_load(f.read())
-
-
-# External Logging Configuration
-with open(log_conf_file, 'r') as f:
+with open('log_conf.yaml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
 
-logger.info("App Conf File: %s" % app_conf_file)
-logger.info("Log Conf File: %s" % log_conf_file)
+with open('app_conf.yaml', 'r') as f:
+    app_config = yaml.safe_load(f.read())
 
 
-def get_add_movie_order(timestamp):
+def get_add_movie_order(start_timestamp, end_timestamp):
     """ Gets new movie order details after the timestamp """
     session = DB_SESSION()
     # Convert timestamp into datetime object
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
 
     # Use timestamp to query event
-    orders = session.query(AddMovieOrder).filter(AddMovieOrder.date_created >= timestamp_datetime)
+    orders = session.query(AddMovieOrder).filter(and_(AddMovieOrder.date_created >= start_timestamp_datetime, AddMovieOrder.date_created < end_timestamp_datetime))
 
     results_list = []
     # Convert each item to dictionary
@@ -64,18 +82,19 @@ def get_add_movie_order(timestamp):
 
     session.close()
 
-    logger.info("Query for Movie Order details after %s returns %d results" % (timestamp, len(results_list)))
+    logger.info("Query for Movie Order details after %s returns %d results" % (end_timestamp, len(results_list)))
 
     return results_list, 200
 
-def get_payment(timestamp):
+def get_payment(start_timestamp, end_timestamp):
     """ Gets new payment details after the timestamp """
     session = DB_SESSION()
     # Convert timestamp into datetime object
-    timestamp_datetime = datetime.datetime.strptime(timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    start_timestamp_datetime = datetime.datetime.strptime(start_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
+    end_timestamp_datetime = datetime.datetime.strptime(end_timestamp, "%Y-%m-%dT%H:%M:%S.%fZ")
 
     # Use timestamp to query event
-    payments = session.query(Payment).filter(Payment.date_created >= timestamp_datetime)
+    payments = session.query(Payment).filter(and_(Payment.date_created >= start_timestamp_datetime, Payment.date_created < end_timestamp_datetime))
 
     results_list = []
     # Convert each item to dictionary
@@ -84,7 +103,7 @@ def get_payment(timestamp):
 
     session.close()
 
-    logger.info("Query for Payment details after %s returns %d results" % (timestamp, len(results_list)))
+    logger.info("Query for Payment details after %s returns %d results" % (end_timestamp, len(results_list)))
 
     return results_list, 200
 
@@ -135,8 +154,19 @@ def payment(body):
 def process_messages():
     """ Process event messages """
     hostname = "%s:%d" % (app_config["events"]["hostname"], app_config["events"]["port"])
-    client = KafkaClient(hosts=hostname)
-    topic = client.topics[str.encode(app_config["events"]["topic"])]
+
+    retries = 0
+
+    while retries < app_config["max_retries"]:
+
+        try:
+            client = KafkaClient(hosts=hostname)
+            topic = client.topics[str.encode(app_config["events"]["topic"])]
+        except:
+            logger.error("Connection Failed")
+            time.sleep(app_config["sleep_time"])
+            retries += 1
+
 
     # Create a consume on a consumer group, that only reads new messages
     # (uncommitted messages) when the service re-starts (i.e., it doesn't

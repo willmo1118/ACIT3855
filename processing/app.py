@@ -10,28 +10,37 @@ from datetime import datetime
 from flask_cors import CORS, cross_origin
 import os
 
-if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
-    print("In Test Environment")
-    app_conf_file = "/config/app_conf.yaml"
-    log_conf_file = "/config/log_conf.yaml"
-else:
-    print("In Dev Environment")
-    app_conf_file = "app_conf.yaml"
-    log_conf_file = "log_conf.yaml"
+# if "TARGET_ENV" in os.environ and os.environ["TARGET_ENV"] == "test":
+#     print("In Test Environment")
+#     app_conf_file = "/config/app_conf.yaml"
+#     log_conf_file = "/config/log_conf.yaml"
+# else:
+#     print("In Dev Environment")
+#     app_conf_file = "app_conf.yaml"
+#     log_conf_file = "log_conf.yaml"
 
-with open(app_conf_file, 'r') as f:
+# with open(app_conf_file, 'r') as f:
+#     app_config = yaml.safe_load(f.read())
+
+
+# # External Logging Configuration
+# with open(log_conf_file, 'r') as f:
+#     log_config = yaml.safe_load(f.read())
+#     logging.config.dictConfig(log_config)
+
+# logger = logging.getLogger('basicLogger')
+
+# logger.info("App Conf File: %s" % app_conf_file)
+# logger.info("Log Conf File: %s" % log_conf_file)
+
+with open('app_conf.yaml', 'r') as f:
     app_config = yaml.safe_load(f.read())
 
-
-# External Logging Configuration
-with open(log_conf_file, 'r') as f:
+with open('log_conf.yaml', 'r') as f:
     log_config = yaml.safe_load(f.read())
     logging.config.dictConfig(log_config)
 
 logger = logging.getLogger('basicLogger')
-
-logger.info("App Conf File: %s" % app_conf_file)
-logger.info("Log Conf File: %s" % log_conf_file)
 
 
 url = app_config["eventstore"]["url"]
@@ -45,10 +54,11 @@ def populate_stats():
     if os.path.isfile(json_file):
         with open(json_file, 'r') as file:
             data = json.loads(file.read())
-            last_datetime = data["timestamp"]
-            data["timestamp"] = now
-            url_order = url + "/orders/movie_orders?timestamp=" + last_datetime
-            url_payment = url + "/orders/payments?timestamp=" + last_datetime
+            last_datetime = data["end_timestamp"]
+            data["start_timestamp"] = last_datetime
+            data["end_timestamp"] = now
+            url_order = url + "/orders/movie_orders?start_timestamp=" + last_datetime + "&end_timestamp=" + now
+            url_payment = url + "/orders/payments?start_timestamp=" + last_datetime + "&end_timestamp=" + now
             try:
                 response1 = requests.get(url_order)
                 
@@ -88,7 +98,7 @@ def populate_stats():
                 logger.error(e)
     else:
         with open(json_file, 'w') as file:
-            default_data = {"timestamp": now, "num_movie_orders": 0, "num_payments": 0, "sum_movie_price": 0, "avg_movie_price": 0}
+            default_data = {"start_timestamp": now,"end_timestamp": now, "num_movie_orders": 0, "num_payments": 0, "sum_movie_price": 0, "avg_movie_price": 0}
             json_data = json.dumps(default_data)
             file.write(json_data)
         logger.debug(f"Current Statistics: {default_data}")

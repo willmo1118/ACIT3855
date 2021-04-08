@@ -4012,3 +4012,170 @@
 2021-03-04 10:45:24,309 - basicLogger - INFO - Query for Movie Order details after 2021-03-04T10:45:17.267687Z returns 0 results
 2021-03-04 10:45:26,360 - basicLogger - INFO - Query for Payment details after 2021-03-04T10:45:17.267687Z returns 0 results
 2021-03-04 10:45:29,311 - basicLogger - INFO - Query for Movie Order details after 2021-03-04T10:45:22.264898Z returns 0 results
+2021-04-07 16:18:26,331 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:21:31,510 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:24:09,578 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:25:45,095 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:26:54,576 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:30:32,442 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:40:24,440 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:52:06,934 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 16:58:24,204 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 17:08:25,897 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 17:09:16,284 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 17:12:43,742 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 17:13:30,216 - basicLogger - INFO - Connecting to DB. Hostname:acit3855-will.westus2.cloudapp.azure.com, Port:3306
+2021-04-07 17:13:31,172 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:13:27.198844Z returns 0 results
+2021-04-07 17:13:33,228 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:13:27.198844Z returns 0 results
+2021-04-07 17:13:39,249 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:13:37.196843Z returns 0 results
+2021-04-07 17:13:41,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:13:37.196843Z returns 0 results
+2021-04-07 17:13:44,257 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:13:42.198342Z returns 0 results
+2021-04-07 17:13:46,314 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:13:42.198342Z returns 0 results
+2021-04-07 17:13:49,263 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:13:47.197842Z returns 0 results
+2021-04-07 17:13:51,318 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:13:47.197842Z returns 0 results
+2021-04-07 17:13:54,254 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:13:52.197342Z returns 0 results
+2021-04-07 17:13:56,312 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:13:52.197342Z returns 0 results
+2021-04-07 17:13:59,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:13:57.198343Z returns 0 results
+2021-04-07 17:14:01,316 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:13:57.198343Z returns 0 results
+2021-04-07 17:14:04,262 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:02.198342Z returns 0 results
+2021-04-07 17:14:06,320 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:02.198342Z returns 0 results
+2021-04-07 17:14:09,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:07.198343Z returns 0 results
+2021-04-07 17:14:11,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:07.198343Z returns 0 results
+2021-04-07 17:14:14,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:12.197843Z returns 0 results
+2021-04-07 17:14:16,316 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:12.197843Z returns 0 results
+2021-04-07 17:14:19,257 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:17.197843Z returns 0 results
+2021-04-07 17:14:21,314 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:17.197843Z returns 0 results
+2021-04-07 17:14:24,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:22.197342Z returns 0 results
+2021-04-07 17:14:26,313 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:22.197342Z returns 0 results
+2021-04-07 17:14:29,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:27.198342Z returns 0 results
+2021-04-07 17:14:31,305 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:27.198342Z returns 0 results
+2021-04-07 17:14:34,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:32.197842Z returns 0 results
+2021-04-07 17:14:36,309 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:32.197842Z returns 0 results
+2021-04-07 17:14:39,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:37.197355Z returns 0 results
+2021-04-07 17:14:41,309 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:37.197355Z returns 0 results
+2021-04-07 17:14:44,254 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:42.196855Z returns 0 results
+2021-04-07 17:14:46,312 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:42.196855Z returns 0 results
+2021-04-07 17:14:49,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:47.197855Z returns 0 results
+2021-04-07 17:14:51,307 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:47.197855Z returns 0 results
+2021-04-07 17:14:54,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:52.197355Z returns 0 results
+2021-04-07 17:14:56,318 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:52.197355Z returns 0 results
+2021-04-07 17:14:59,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:14:57.196856Z returns 0 results
+2021-04-07 17:15:01,307 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:14:57.196856Z returns 0 results
+2021-04-07 17:15:04,251 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:02.197856Z returns 0 results
+2021-04-07 17:15:06,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:02.197856Z returns 0 results
+2021-04-07 17:15:09,251 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:07.197855Z returns 0 results
+2021-04-07 17:15:11,302 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:07.197855Z returns 0 results
+2021-04-07 17:15:14,262 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:12.197355Z returns 0 results
+2021-04-07 17:15:16,318 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:12.197355Z returns 0 results
+2021-04-07 17:15:19,264 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:17.197356Z returns 0 results
+2021-04-07 17:15:21,323 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:17.197356Z returns 0 results
+2021-04-07 17:15:24,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:22.197856Z returns 0 results
+2021-04-07 17:15:26,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:22.197856Z returns 0 results
+2021-04-07 17:15:29,261 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:27.197857Z returns 0 results
+2021-04-07 17:15:31,312 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:27.197857Z returns 0 results
+2021-04-07 17:15:34,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:32.197355Z returns 0 results
+2021-04-07 17:15:36,311 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:32.197355Z returns 0 results
+2021-04-07 17:15:39,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:37.197356Z returns 0 results
+2021-04-07 17:15:41,305 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:37.197356Z returns 0 results
+2021-04-07 17:15:44,247 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:42.197356Z returns 0 results
+2021-04-07 17:15:46,306 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:42.197356Z returns 0 results
+2021-04-07 17:15:49,272 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:47.197356Z returns 0 results
+2021-04-07 17:15:51,330 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:47.197356Z returns 0 results
+2021-04-07 17:15:54,257 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:52.196855Z returns 0 results
+2021-04-07 17:15:56,313 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:52.196855Z returns 0 results
+2021-04-07 17:15:59,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:15:57.197356Z returns 0 results
+2021-04-07 17:16:01,306 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:15:57.197356Z returns 0 results
+2021-04-07 17:16:04,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:02.197355Z returns 0 results
+2021-04-07 17:16:06,312 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:02.197355Z returns 0 results
+2021-04-07 17:16:09,254 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:07.196855Z returns 0 results
+2021-04-07 17:16:11,309 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:07.196855Z returns 0 results
+2021-04-07 17:16:14,260 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:12.197855Z returns 0 results
+2021-04-07 17:16:16,318 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:12.197855Z returns 0 results
+2021-04-07 17:16:19,254 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:17.197855Z returns 0 results
+2021-04-07 17:16:21,319 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:17.197855Z returns 0 results
+2021-04-07 17:16:24,258 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:22.197855Z returns 0 results
+2021-04-07 17:16:26,311 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:22.197855Z returns 0 results
+2021-04-07 17:16:29,258 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:27.197356Z returns 0 results
+2021-04-07 17:16:31,310 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:27.197356Z returns 0 results
+2021-04-07 17:16:34,252 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:32.197356Z returns 0 results
+2021-04-07 17:16:36,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:32.197356Z returns 0 results
+2021-04-07 17:16:39,257 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:37.196855Z returns 0 results
+2021-04-07 17:16:41,304 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:37.196855Z returns 0 results
+2021-04-07 17:16:44,246 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:42.197356Z returns 0 results
+2021-04-07 17:16:46,293 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:42.197356Z returns 0 results
+2021-04-07 17:16:49,244 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:47.196855Z returns 0 results
+2021-04-07 17:16:51,296 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:47.196855Z returns 0 results
+2021-04-07 17:16:54,246 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:52.197856Z returns 0 results
+2021-04-07 17:16:56,293 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:52.197856Z returns 0 results
+2021-04-07 17:16:59,263 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:16:57.197355Z returns 0 results
+2021-04-07 17:17:01,317 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:16:57.197355Z returns 0 results
+2021-04-07 17:17:04,248 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:02.197355Z returns 0 results
+2021-04-07 17:17:06,297 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:02.197355Z returns 0 results
+2021-04-07 17:17:09,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:07.197355Z returns 0 results
+2021-04-07 17:17:11,303 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:07.197355Z returns 0 results
+2021-04-07 17:17:14,257 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:12.196855Z returns 0 results
+2021-04-07 17:17:16,305 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:12.196855Z returns 0 results
+2021-04-07 17:17:19,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:17.197856Z returns 0 results
+2021-04-07 17:17:21,303 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:17.197856Z returns 0 results
+2021-04-07 17:17:24,259 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:22.197357Z returns 0 results
+2021-04-07 17:17:26,302 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:22.197357Z returns 0 results
+2021-04-07 17:17:29,249 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:27.197356Z returns 0 results
+2021-04-07 17:17:31,296 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:27.197356Z returns 0 results
+2021-04-07 17:17:34,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:32.197355Z returns 0 results
+2021-04-07 17:17:36,305 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:32.197355Z returns 0 results
+2021-04-07 17:17:39,247 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:37.197356Z returns 0 results
+2021-04-07 17:17:41,298 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:37.197356Z returns 0 results
+2021-04-07 17:17:44,702 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:42.197356Z returns 0 results
+2021-04-07 17:17:46,756 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:42.197356Z returns 0 results
+2021-04-07 17:17:49,255 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:47.197356Z returns 0 results
+2021-04-07 17:17:51,307 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:47.197356Z returns 0 results
+2021-04-07 17:17:54,258 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:52.196856Z returns 0 results
+2021-04-07 17:17:56,311 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:52.196856Z returns 0 results
+2021-04-07 17:17:59,245 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:17:57.197855Z returns 0 results
+2021-04-07 17:18:01,293 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:17:57.197855Z returns 0 results
+2021-04-07 17:18:04,250 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:02.197369Z returns 0 results
+2021-04-07 17:18:06,298 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:02.197369Z returns 0 results
+2021-04-07 17:18:09,252 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:07.197369Z returns 0 results
+2021-04-07 17:18:11,301 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:07.197369Z returns 0 results
+2021-04-07 17:18:14,246 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:12.197369Z returns 0 results
+2021-04-07 17:18:16,296 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:12.197369Z returns 0 results
+2021-04-07 17:18:19,248 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:17.197369Z returns 0 results
+2021-04-07 17:18:21,298 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:17.197369Z returns 0 results
+2021-04-07 17:18:24,246 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:22.196889Z returns 0 results
+2021-04-07 17:18:26,298 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:22.196889Z returns 0 results
+2021-04-07 17:18:29,248 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:27.197389Z returns 0 results
+2021-04-07 17:18:31,296 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:27.197389Z returns 0 results
+2021-04-07 17:18:34,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:32.197389Z returns 0 results
+2021-04-07 17:18:36,301 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:32.197389Z returns 0 results
+2021-04-07 17:18:39,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:37.197388Z returns 0 results
+2021-04-07 17:18:41,300 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:37.197388Z returns 0 results
+2021-04-07 17:18:44,259 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:42.197388Z returns 0 results
+2021-04-07 17:18:46,311 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:42.197388Z returns 0 results
+2021-04-07 17:18:49,249 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:47.196887Z returns 0 results
+2021-04-07 17:18:51,298 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:47.196887Z returns 0 results
+2021-04-07 17:18:54,243 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:52.197888Z returns 0 results
+2021-04-07 17:18:56,296 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:52.197888Z returns 0 results
+2021-04-07 17:18:59,250 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:18:57.197887Z returns 0 results
+2021-04-07 17:19:01,305 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:18:57.197887Z returns 0 results
+2021-04-07 17:19:04,248 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:02.197389Z returns 0 results
+2021-04-07 17:19:06,303 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:02.197389Z returns 0 results
+2021-04-07 17:19:09,249 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:07.197388Z returns 0 results
+2021-04-07 17:19:11,297 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:07.197388Z returns 0 results
+2021-04-07 17:19:14,254 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:12.197205Z returns 0 results
+2021-04-07 17:19:16,309 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:12.197205Z returns 0 results
+2021-04-07 17:19:19,252 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:17.197705Z returns 0 results
+2021-04-07 17:19:21,303 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:17.197705Z returns 0 results
+2021-04-07 17:19:24,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:22.197705Z returns 0 results
+2021-04-07 17:19:26,310 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:22.197705Z returns 0 results
+2021-04-07 17:19:29,253 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:27.197705Z returns 0 results
+2021-04-07 17:19:31,302 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:27.197705Z returns 0 results
+2021-04-07 17:19:34,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:32.197205Z returns 0 results
+2021-04-07 17:19:36,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:32.197205Z returns 0 results
+2021-04-07 17:19:39,263 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:37.198204Z returns 0 results
+2021-04-07 17:19:41,312 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:37.198204Z returns 0 results
+2021-04-07 17:19:44,254 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:42.197704Z returns 0 results
+2021-04-07 17:19:46,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:42.197704Z returns 0 results
+2021-04-07 17:19:49,256 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:47.197706Z returns 0 results
+2021-04-07 17:19:51,308 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:47.197706Z returns 0 results
+2021-04-07 17:19:54,249 - basicLogger - INFO - Query for Movie Order details after 2021-04-07T17:19:52.197705Z returns 0 results
+2021-04-07 17:19:56,296 - basicLogger - INFO - Query for Payment details after 2021-04-07T17:19:52.197705Z returns 0 results

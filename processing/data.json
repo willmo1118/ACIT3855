@@ -1,1 +1,1 @@
-{"timestamp": "2021-03-04T10:45:22.264898Z", "num_movie_orders": 25, "num_payments": 36, "sum_movie_price": 530.0, "avg_movie_price": 21.2}
+{"start_timestamp": "2021-04-07T17:19:47.197706Z", "end_timestamp": "2021-04-07T17:19:52.197705Z", "num_movie_orders": 0, "num_payments": 0, "sum_movie_price": 0, "avg_movie_price": 0}

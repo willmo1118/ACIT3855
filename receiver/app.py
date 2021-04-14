@@ -60,6 +60,7 @@ while retries < app_config["max_retries"]:
     try:
         client = KafkaClient(hosts=hostname+':'+port)
         topic = client.topics[str.encode(config_topic)]
+        producer = topic.get_sync_producer()
         logger.info("Connected")
         break
     except:
@@ -72,7 +73,7 @@ def add_movie_order(body):
     unique_id_movie_order = body["customer_id"]
     logger.info(f"Received event {keys[1]} request with a unique id: {unique_id_movie_order}")
 
-    producer = topic.get_sync_producer()
+    
     msg = {"type": keys[1], "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"), "payload": body}
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode('utf-8'))
@@ -89,7 +90,6 @@ def payment(body):
     logger.info(f"Received event {keys[2]} request with a unique id: {unique_id_payment}")
 
 
-    producer = topic.get_sync_producer()
     msg = {"type": keys[2], "datetime": datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S"), "payload": body}
     msg_str = json.dumps(msg)
     producer.produce(msg_str.encode('utf-8'))
@@ -99,7 +99,7 @@ def payment(body):
     return NoContent, 201
 
 app = connexion.FlaskApp(__name__, specification_dir='')
-app.add_api("openapi.yaml", strict_validation=True, validate_responses=True)
+app.add_api("openapi.yaml", base_path="/receiver", strict_validation=True, validate_responses=True)
 
 if __name__ == "__main__":
     app.run(port=8080)
